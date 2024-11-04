@@ -266,6 +266,6 @@ body {
 
 
   footer{
-    background-color: #9f8004;
+    background-color:var(--cor2);
   }
   
