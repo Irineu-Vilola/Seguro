@@ -4,48 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/css/cadastro.css">
+    <link rel="stylesheet" href="css/css/global.css">
+    <link rel="stylesheet" href="css/css/index.css">
+    <link rel="stylesheet" href="nicepage.css">
 
 </head>
 <body>
-    <div class="b-example-divider"></div>
 
-<div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
-  <div class="list-group list-group-radio d-grid gap-2 border-0">
-    <div class="position-relative">
-      <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked>
-      <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
-        <strong class="fw-semibold">First radio</strong>
-        <span class="d-block small opacity-75">With support text underneath to add more detail</span>
-      </label>
+  <header class="d-flex align-items-center">
+      
+    <div class="container  d-flex  align-items-center justify-content-between">
+      <a href="#" class="u-image u-logo u-image-1">
+        <img src="images/logo/logo.png" width="100px" height="100px" alt="">
+      </a>
+
+      <!--Menu Hamburguer -->
+      <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+        
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+          <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 4px 6px; font-size: calc(1em + 8px);">
+            <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+            <i class="bi bi-list"></i>
+           
+          </a>
+        </div>
+        <div class="u-custom-menu u-nav-container">
+
+          <ul class="d-flex  align-items-center gap-5">
+            
+             <li class="nav-item"><a class="" href="index.html">Página Inicial</a></li>
+             <li class="nav-item"><a class="" >Seguros</a></li>
+             <li class="nav-item"><a class="">Rastreador</a></li>
+             <li class="nav-item"><a class="">Parcerias</a></li>
+             <li class="ms-4 u-nav-item align-items-center gap-2">
+              <a class="btn btn-color" href="cadastro.html">Criar Conta</a>
+              <a class="btn btn-color-contraste" href="logim.html">Entrar</a>
+            </li>
+          </ul>
+          
+
+        </div>
+
+        <div class="u-custom-menu u-nav-container-collapse">
+          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-inner-container-layout u-sidenav-overflow">
+              <div class="u-menu-close"></div>
+
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item">
+                  
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Página-1.html">Página 1</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link" target="_blank">Seguros</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link">Rastreador</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link">Parcerias</a></li>
+                  <a class="u-button-style u-nav-link" href="./">login</a>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
     </div>
+  </header>
 
-    <div class="position-relative">
-      <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid2" value="">
-      <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid2">
-        <strong class="fw-semibold">Second radio</strong>
-        <span class="d-block small opacity-75">Some other text goes here</span>
-      </label>
-    </div>
 
-    <div class="position-relative">
-      <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid3" value="">
-      <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid3">
-        <strong class="fw-semibold">Third radio</strong>
-        <span class="d-block small opacity-75">And we end with another snippet of text</span>
-      </label>
-    </div>
+  <div class="container">
+    <div class="row p-4  pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <img src="images/moto-branca.png" alt="">
+        <h3 class="display-7 fw-bold lh-1 text-body-emphasis">Faça já o seu cadastro </h3>
+       
+        
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+          <div class="list-group list-group-radio d-grid gap-4 border-0 p-2">
 
-    <div class="position-relative">
-      <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid4" value="" disabled>
-      <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid4">
-        <strong class="fw-semibold">Fourth disabled radio</strong>
-        <span class="d-block small opacity-75">This option is disabled</span>
-      </label>
+            <div class="position-relative">
+              <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid1" value="" checked>
+              <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
+                <strong class="fw-semibold">Motoqueiro</strong>
+              </label>
+            </div>
+        
+            <div class="position-relative">
+              <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid2" value="">
+              <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid2">
+                <strong class="fw-semibold">Parceiro</strong>
+              </label>
+            </div>
+        
+            <div class="position-relative">
+              <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="listGroupRadioGrid" id="listGroupRadioGrid3" value="">
+              <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid3">
+                <strong class="fw-semibold">Empresa</strong>
+              </label>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <a class="w-100" href="cadastro-Motoqueiro.html"><button type="button" class="btn btn-color-contraste w-100 p-3 me-md-2 fw-bold">Continuar</button></a>
+            </div>
+        
+            </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+   
+
+
 
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
